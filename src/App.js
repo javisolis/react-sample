@@ -6,7 +6,7 @@ import ShareButton from 'react-social-share-buttons'
 
 const diaB = moment("2016-12-11 18:00:00 PM", "YYYY-MM-DD HH:mm:ss a");
 const shareText = 'Tiempo que lleva Boca Juniors siendo puntero';
-const baseUrl = 'http://ec2-18-219-96-125.us-east-2.compute.amazonaws.com/';
+const baseUrl = 'https://goo.gl/3RyLW8';
 const logoUrl = "http://www.bocajuniors.com.ar/css/images/logoBoca.png";
 
 class App extends Component {
