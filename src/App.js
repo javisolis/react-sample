@@ -5,6 +5,9 @@ import ShareButton from 'react-social-share-buttons'
 
 const diaB = moment("2016-12-11 18:00:00 PM", "YYYY-MM-DD HH:mm:ss a");
 const shareText = 'Tiempo que lleva Boca Juniors siendo puntero';
+const baseUrl = 'http://ec2-18-219-96-125.us-east-2.compute.amazonaws.com/';
+const logoUrl = "http://www.bocajuniors.com.ar/css/images/logoBoca.png";
+
 class App extends Component {
 	state = {
 		currentTime: moment()
@@ -41,22 +44,22 @@ class App extends Component {
 						<ShareButton
 							compact
 							socialMedia={'twitter'}
-							url={"https://xkcd.com/1024/"}
-							media={"https://imgs.xkcd.com/comics/error_code.png"}
+							url={baseUrl}
+							media={logoUrl}
 							text={shareText}
 						/>
 						<ShareButton
 							compact
 							socialMedia={'facebook'}
-							url={"https://xkcd.com/1024/"}
-							media={"https://imgs.xkcd.com/comics/error_code.png"}
+							url={baseUrl}
+							media={logoUrl}
 							text={shareText}
 						/>
 						<ShareButton
 							compact
 							socialMedia={'pinterest'}
-							url={"https://xkcd.com/1024/"}
-							media={"https://imgs.xkcd.com/comics/error_code.png"}
+							url={baseUrl}
+							media={logoUrl}
 							text={shareText}
 						/>
 					</div>
