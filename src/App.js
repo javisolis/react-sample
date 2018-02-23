@@ -41,7 +41,6 @@ class App extends Component {
 						<p>{this.state.currentTime.diff(diaB, 'days')} dias</p>
 						<p>{this.state.currentTime.diff(diaB, 'months')} meses</p>
 						<br></br>
-						<span>Hagamos correr la voz!</span>
 						<ShareButton
 							compact
 							socialMedia={'twitter'}
