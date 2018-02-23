@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import logo from './logoBoca.png';
 import moment from 'moment';
 import ShareButton from 'react-social-share-buttons'
 
@@ -29,7 +30,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<header className="App-header">
-					<img src='http://www.bocajuniors.com.ar/css/images/logoBoca.png' alt="logo" className='appLogo' />
+					<img src={logo} alt="logo" className='appLogo' />
 					<h1 className="App-title">Tiempo siendo puntero</h1>
 				</header>
 				<div className="image">

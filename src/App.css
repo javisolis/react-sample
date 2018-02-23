@@ -34,7 +34,7 @@ html,body { height: 100%; max-width: 1166px; margin: auto; padding: 0px; }
 	height: -o-calc(100% - 130px);
 	/* Standard */
 	height: calc(100% - 130px);
-	background-image: url('http://www.bocajuniors.com.ar/images/fondos/quilmes/BomboneraAtardecer.jpg');
+	background-image: url('BomboneraAtardecer.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	min-height: 380px;
